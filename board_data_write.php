@@ -1,4 +1,4 @@
-<?php
+git<?php
     session_start();
     echo $_POST['title'];
     if(!isset($_POST['title'])||!isset($_POST['content'])||$_POST['title']==null||$_POST['content']==null){
